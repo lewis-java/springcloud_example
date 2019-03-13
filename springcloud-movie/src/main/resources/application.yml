@@ -1,0 +1,21 @@
+server:
+  port: 10002
+spring:
+  application:
+    name: movie-api
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://leo:leo@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true #Default false, default OS hostname to Eureka Server

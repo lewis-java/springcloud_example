@@ -10,6 +10,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/roncoo/spring-cloud-demo.git
-          search-paths: spring-cloud-02-consumer
+          uri: https://github.com/lewis-java/springcloud_example
+          search-paths: /springcloud-discover-eureka/src/main/resources**
+        default-label: master
 ...

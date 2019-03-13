@@ -23,6 +23,7 @@
         <module>springcloud-user-service</module>
         <module>springcloud-movie-service</module>
         <module>springcloud-config-server</module>
+        <module>springcloud-discover-eureka</module>
     </modules>
 
     <properties>

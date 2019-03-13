@@ -1,0 +1,10 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: application
+  cloud:
+    config:
+      label: master
+      profile: default
+      uri: http://localhost:8080/

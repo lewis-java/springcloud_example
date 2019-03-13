@@ -2,99 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42361278-34d1-4dc2-aed1-d0300c38e4c9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config-server/src/main/java/com/lgl/study/SpringcloudConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config-server/src/main/java/com/lgl/study/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config-server/src/test/java/com/lgl/study/SpringclodConfigServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-discover-eureka/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-discover-eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-discover-eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-discover-eureka/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-discover-eureka/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-discover-eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-discover-eureka/src/main/java/com/lgl/study/discover/eureka/DiscoverEurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-discover-eureka/src/main/java/com/lgl/study/discover/eureka/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-discover-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-discover-eureka/src/test/java/com/lgl/study/discover/eureka/SpringcloudDiscoverEurekaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie-service/src/main/java/com/lgl/study/service/MovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie-service/src/main/java/com/lgl/study/service/impl/MovieServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie-service/src/main/java/com/lgl/study/user/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie-service/target/classes/com/lgl/study/service/MovieService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie-service/target/classes/com/lgl/study/service/impl/MovieServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie-service/target/classes/com/lgl/study/user/dto/UserDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/src/main/java/com/lgl/study/movie/MovieApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/src/main/java/com/lgl/study/movie/client/FeignUserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/src/main/java/com/lgl/study/movie/client/fallback/FeignUserClientFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/src/main/java/com/lgl/study/movie/config/FeignSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/src/main/java/com/lgl/study/movie/config/RestTemplateConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/src/main/java/com/lgl/study/movie/config/RibbonConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/src/main/java/com/lgl/study/movie/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-movie/src/test/java/com/lgl/study/movie/ConsumerMovieApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-dao/src/main/java/com/lgl/study/user/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-dao/src/main/java/com/lgl/study/user/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-dao/target/classes/com/lgl/study/provider/user/dao/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-dao/target/classes/com/lgl/study/provider/user/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-dao/target/classes/com/lgl/study/user/dao/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-dao/target/classes/com/lgl/study/user/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-dao/target/provider-user-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/src/main/java/com/lgl/study/user/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/src/main/java/com/lgl/study/user/dto/builder/UserBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/src/main/java/com/lgl/study/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/src/main/java/com/lgl/study/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/target/classes/com/lgl/study/provider/user/dto/UserDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/target/classes/com/lgl/study/provider/user/dto/builder/UserBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/target/classes/com/lgl/study/provider/user/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/target/classes/com/lgl/study/provider/user/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/target/classes/com/lgl/study/user/dto/UserDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/target/classes/com/lgl/study/user/dto/builder/UserBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/target/classes/com/lgl/study/user/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/target/classes/com/lgl/study/user/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user-service/target/provider-user-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user/src/main/java/com/lgl/study/user/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user/src/main/java/com/lgl/study/user/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user/src/main/java/com/lgl/study/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user/src/main/resources/scripts/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user/src/main/resources/scripts/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-user/src/test/java/com/lgl/study/user/UserApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-config-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config-server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-discover-eureka/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-discover-eureka/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-movie/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-movie/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-user/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-user/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -140,27 +53,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-movie/src/main/java/com/lgl/study/movie/MovieApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-movie/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FeignUserClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springcloud-movie/src/main/java/com/lgl/study/movie/client/FeignUserClient.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -194,20 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-user/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springcloud-movie/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="268">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -270,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springcloud-provider-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-consumer-movie/src/main/java/com/lgl/study/consumer/movie/config/RestTemplateConfiguration.java" />
         <option value="$PROJECT_DIR$/springcloud-consumer-movie/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-consumer-movie/src/main/java/com/lgl/study/consumer/movie/controller/MovieController.java" />
@@ -314,13 +196,14 @@
         <option value="$PROJECT_DIR$/springcloud-movie/src/main/java/com/lgl/study/movie/client/fallback/FeignUserClientFallback.java" />
         <option value="$PROJECT_DIR$/springcloud-user/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-user/src/main/java/com/lgl/study/user/UserApplication.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/springcloud-movie/src/main/java/com/lgl/study/movie/config/FeignSecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/springcloud-discover-eureka/.gitignore" />
-        <option value="$PROJECT_DIR$/springcloud-config-server/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/springcloud-user/.gitignore" />
         <option value="$PROJECT_DIR$/springcloud-movie/.gitignore" />
+        <option value="$PROJECT_DIR$/springcloud-discover-eureka/.gitignore" />
+        <option value="$PROJECT_DIR$/springcloud-config-server/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -407,7 +290,7 @@
     <property name="SearchEverywhereHistoryKey" value="EnableAutoConfiguration &#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.EnableAutoConfiguration&#10;discovercli&#9;PSI&#9;JAVA://com.netflix.discovery.DiscoveryClient&#10;matchers&#9;PSI&#9;JAVA://org.hamcrest.Matchers" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../InstantNoodles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dataportal" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -564,7 +447,7 @@
       <updated>1548222276047</updated>
       <workItem from="1548222281239" duration="57853000" />
       <workItem from="1548655608980" duration="6445000" />
-      <workItem from="1552295697708" duration="24605000" />
+      <workItem from="1552295697708" duration="26190000" />
     </task>
     <servers />
   </component>
@@ -583,7 +466,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88903000" />
+    <option name="totallyTimeSpent" value="90488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1608" y="-29" width="1616" height="916" extended-state="6" />
@@ -644,13 +527,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springcloud-config-server/src/main/java/com/lgl/study/SpringcloudConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-discover-eureka/src/main/java/com/lgl/study/discover/eureka/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -982,13 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1003,17 +872,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="3" selection-start-column="3" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-user/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-config-server/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="256">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-discover-eureka/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="236">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1027,17 +920,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-user/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-movie/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="268">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>

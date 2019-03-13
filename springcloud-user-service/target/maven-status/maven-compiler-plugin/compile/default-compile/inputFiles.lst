@@ -1,4 +1,4 @@
-D:\dev\workspace_idea\springcloud-study\springcloud-provider-user-service\src\main\java\com\lgl\study\provider\user\service\UserService.java
-D:\dev\workspace_idea\springcloud-study\springcloud-provider-user-service\src\main\java\com\lgl\study\provider\user\service\impl\UserServiceImpl.java
-D:\dev\workspace_idea\springcloud-study\springcloud-provider-user-service\src\main\java\com\lgl\study\provider\user\dto\UserDTO.java
-D:\dev\workspace_idea\springcloud-study\springcloud-provider-user-service\src\main\java\com\lgl\study\provider\user\dto\builder\UserBuilder.java
+D:\dev\workspace_idea\springcloud-study\springcloud-user-service\src\main\java\com\lgl\study\user\service\impl\UserServiceImpl.java
+D:\dev\workspace_idea\springcloud-study\springcloud-user-service\src\main\java\com\lgl\study\user\service\UserService.java
+D:\dev\workspace_idea\springcloud-study\springcloud-user-service\src\main\java\com\lgl\study\user\dto\UserDTO.java
+D:\dev\workspace_idea\springcloud-study\springcloud-user-service\src\main\java\com\lgl\study\user\dto\builder\UserBuilder.java

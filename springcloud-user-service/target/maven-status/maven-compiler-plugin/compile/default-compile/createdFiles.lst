@@ -1,4 +1,4 @@
-com\lgl\study\provider\user\dto\builder\UserBuilder.class
-com\lgl\study\provider\user\service\UserService.class
-com\lgl\study\provider\user\dto\UserDTO.class
-com\lgl\study\provider\user\service\impl\UserServiceImpl.class
+com\lgl\study\user\dto\builder\UserBuilder.class
+com\lgl\study\user\dto\UserDTO.class
+com\lgl\study\user\service\UserService.class
+com\lgl\study\user\service\impl\UserServiceImpl.class

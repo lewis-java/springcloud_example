@@ -1,17 +1,28 @@
 # spring cloud example
+
 A simple spring cloud example
 
 ## modules
+
 springcloud-config-server: config server
+
 springcloud-discover-eureka: register center
+
 springcloud-movie-service
+
 springcloud-movie: mover-api application
+
 springcloud-user-dao
+
 springcloud-user-service
+
 springcloud-user: user-api application
+
 springcloud-zuul: zuul gateway
 
+
 ## comment
+
 1. start up config server;
 2. start up discover server, url: http://localhost:8761/
     spring security username/password: leo/leo;
@@ -25,5 +36,6 @@ springcloud-zuul: zuul gateway
     d. call user service by zuul and movie service: http://localhost:10006/movie-api/web/api/v1/user/get/1
     
 ##sql script
-springcloud-user\src\main\resources\scripts\data.sql
-springcloud-user\src\main\resources\scripts\schema.sql
+
+springcloud-user\src\main\resources\scripts\data.sql;
+springcloud-user\src\main\resources\scripts\schema.sql.

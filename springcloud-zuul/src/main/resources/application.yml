@@ -1,0 +1,24 @@
+---
+server:
+  port: 10006
+...
+---
+spring:
+  application:
+    name: zuul-client
+...
+---
+eureka:
+  client:
+    service-url:
+      defaultZone: http://leo:leo@localhost:8761/eureka/
+  instance:
+    ip-address: true
+...
+---
+zuul:
+  routes:
+    user-api: /web/api/v1/**
+    movie-api: /web/api/v2/**
+  sensitive-headers: cookie # Don't filter request headers, default filter all
+...

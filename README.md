@@ -35,7 +35,7 @@ springcloud-zuul: zuul gateway
     c. direct call user service by zuul: http://localhost:10006/user-api/web/api/v1/user/get/1
     d. call user service by zuul and movie service: http://localhost:10006/movie-api/web/api/v1/user/get/1
     
-##sql script
+## sql script
 
 springcloud-user\src\main\resources\scripts\data.sql;
 springcloud-user\src\main\resources\scripts\schema.sql.
